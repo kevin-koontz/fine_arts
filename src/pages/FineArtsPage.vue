@@ -70,8 +70,8 @@ button {
   font-weight:bold;
 }
 img {
-  text-shadow: 2px 2px 5px black;
   margin-bottom: .5em;
+  box-shadow: 1px 1px 8px black;
 }
 
 .pageNumbers {
