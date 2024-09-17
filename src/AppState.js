@@ -10,6 +10,8 @@ export const AppState = reactive({
 
   //NOTE - Below here = not raw template
   /** @type {FineArt[]} */
-  finearts: []
+  finearts: [],
+  page: 0,
+  pages: 0
 })
 

@@ -9,6 +9,9 @@ class FineArtsService {
     console.log('GOT FINE ARTS 🖼️', response.data)
     const newFineArts = response.data.artworks.map(artworkPOJO => new FineArt(artworkPOJO))
     AppState.finearts = newFineArts
+
+    AppState.page = response.data.page
+    AppState.pages = response.data.pages
   }
 }
 
