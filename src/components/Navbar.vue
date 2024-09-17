@@ -35,6 +35,11 @@ function toggleTheme() {
             About
           </router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Fine Arts' }" class="btn text-success lighten-30 selectable text-uppercase">
+            Fine Arts
+          </router-link>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <div>
